@@ -6,7 +6,6 @@
 void jack_bauer(void)
 {
 	int hrs, mins, hrs_rem, mins_rem;
-	char s = ':';
 
 	for (hrs = 0; hrs <= 23; hrs++)
 	{
@@ -16,7 +15,7 @@ void jack_bauer(void)
 			mins_rem = mins % 10;
 			_putchar(hrs / 10 + '0');
 			_putchar(hrs_rem + '0');
-			_putchar(s);
+			_putchar(':');
 			_putchar(mins / 10 + '0');
 			_putchar(mins_rem + '0');
 			_putchar('\n');
