@@ -10,7 +10,7 @@ void num(int r, int n);
 void print_time_table(int n);
 void print_to_98(int n);
 int add(int a, int b);
-void time_table(void);
+void times_table(void);
 void jack_bauer(void);
 int print_last_digit(int);
 int _abs(int);
