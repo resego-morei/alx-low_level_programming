@@ -15,7 +15,7 @@ int main()
 
 	srand(time(NULL));
 
-	while (sum <= 56748)
+	while (total <= 56748)
 	{
 		psswrd = rand() % 528;
 		total = total + psswrd;
