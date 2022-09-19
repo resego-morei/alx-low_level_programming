@@ -5,13 +5,17 @@
  * _atoi - function that convert a string to an integer.
  *
  * @s: entry string of the function
+ *
+ * Return: void
  */
 
 int _atoi(char *s)
 {
-	int i = 1, n = 0;
+	int i = 1;
+	
+	unsigned int n = 0;
 
-	char* temp = s;
+	char *temp = s;
 
 	char lower = '0', upper = '9';
 
