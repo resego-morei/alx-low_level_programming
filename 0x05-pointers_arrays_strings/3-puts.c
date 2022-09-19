@@ -10,7 +10,7 @@
 void _puts(char *str)
 {
 	int index;
-       
+
 int len = strlen(str);
 
 	for (index = 0; index < len; index++)
