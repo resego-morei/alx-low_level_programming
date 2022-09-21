@@ -2,12 +2,10 @@
 
 /**
  * strncat - function that concatenates two strings
- *
- * @dest - destination pointer
- * @src - source pointer
- * n - number of bytes from src
- *
- * Return -  pointer to the resulting string dest
+ * @dest: destination pointer
+ * @src: source pointer
+ * @n: number of bytes from src
+ * Return: pointer to the resulting string dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -23,6 +21,5 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[len++] = src[index];
 	}
-
 	return (dest);
 }
